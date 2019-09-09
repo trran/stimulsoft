@@ -1,0 +1,145 @@
+:root {
+  --color-black: #3E5460;
+  --color-blue:#3498DB;  
+  --color-green:#1ABC9C;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  color: var(--color-text);
+}
+
+nav,footer {
+  display: flex;
+  justify-content: space-around;
+  height: 15vh;
+  background-color: #FEF9EA;
+  align-items:center; 
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+ list-style: none;
+ margin-left: 25px;
+ text-transform: uppercase; 
+}
+
+nav li:hover{
+  text-decoration: underline;
+}
+
+.nav-menu-li {
+  background-color: #EEEBE4;
+  height: 100%; 
+}
+
+.logo {
+  width: 180px;
+}
+
+.header {
+  height: 85vh;
+  width: 100%;
+  background-image:url(../images/background.jpg);
+  background-repeat:space;
+  background-position: 50%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.header h1 {
+  text-transform: uppercase;
+}
+
+.header p {
+  font-size: 2em;
+}
+
+.header-button {
+  width: 45%;
+  height: 50px;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.header-button button {
+  width: 45%;
+  height:50px; 
+  margin: 3px;
+  border-radius: 1px; 
+  border: 0;
+  display: inline-block;
+}
+
+.header-button button:hover{
+  text-decoration: underline;
+}
+.header-button-demo {
+  background-color: var(--color-blue);
+  color: white;
+}
+
+.header-button-download {
+  background-color: var(--color-green);
+  color: white;
+}
+
+.info{
+  height: 75vh;
+  background-color:#29282E;
+}
+
+
+footer {
+  background-color: white;
+  height: 25vh;
+  color: #47454585;
+}
+
+footer ul{
+  display: flex;
+}
+
+footer li{
+  margin-left: 10px;
+  list-style: none; 
+}
+
+.copy-policy-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header2{
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.report {
+  width: 120px;
+  height: 120px;
+}
+
+.stimulsoft{
+  text-align: center;
+}
+
+.stimulsoft p {
+  font-size: 20px;
+}
+
+.stimulsoft h2:hover{
+  text-decoration: underline;
+}
